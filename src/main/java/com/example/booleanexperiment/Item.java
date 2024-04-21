@@ -1,6 +1,5 @@
 package com.example.booleanexperiment;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,6 +16,5 @@ public class Item {
 
     private String name;
 
-    @JsonProperty("isEdible")
     private boolean isEdible;
 }
